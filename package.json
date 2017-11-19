@@ -1,0 +1,24 @@
+
+{
+  "name": "react-native-elapsed-time",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pankajkgarg/react-native-elapsed-time.git"
+  },
+  "keywords": [
+    "react-native",
+    "elapsed-time",
+    "accurate-time"
+  ],
+  "author": "Pankaj Garg",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
