@@ -33,6 +33,7 @@
 ```javascript
 import RNElapsedTime from 'react-native-elapsed-time';
 
+// Returns time in millisecond
 ...
 const elapsedTime = await RNElapsedTime.getRelativeTime();
 ```

@@ -25,7 +25,7 @@ public class RNElapsedTimeModule extends ReactContextBaseJavaModule {
   }
 
     /**
-     * Return a relative unit of time in seconds that cannot be influenced by the user
+     * Return a relative unit of time in millisecond that cannot be influenced by the user
      * @param promise
      */
     @ReactMethod
@@ -34,7 +34,7 @@ public class RNElapsedTimeModule extends ReactContextBaseJavaModule {
         long time = android.os.SystemClock.elapsedRealtime();
 
         // React Native bridge complains if we try to pass back a long directly
-        promise.resolve(Long.toString(time / 1000));
+        promise.resolve(Long.toString(time));
     }
 
 
