@@ -17,7 +17,7 @@
     "accurate-time"
   ],
   "author": "Pankaj Garg",
-  "license": "",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
   },
