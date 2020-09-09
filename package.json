@@ -20,5 +20,6 @@
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"
-  }
+  },
+  "types": "types/index.d.ts"
 }
